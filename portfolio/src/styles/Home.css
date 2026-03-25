@@ -22,7 +22,7 @@
 .hero-tag {
   font-family: 'Space Mono', monospace;
   font-size: 13px;
-  color: #3ecfb2;
+  color: #ff7300;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@
   display: block;
   width: 32px;
   height: 1px;
-  background: #3ecfb2;
+  background: #ff8800;
 }
 
 .hero-title {
@@ -48,7 +48,7 @@
 }
 
 .hero-title span {
-  color: #7c6ef5;
+  color: #ff9100;
 }
 
 .hero-desc {
@@ -80,14 +80,14 @@
 }
 
 .btn-primary {
-  background: #7c6ef5;
+  background: #ff9100;
   color: #fff;
-  border-color: #7c6ef5;
+  border-color: #ffffff;
 }
 
 .btn-primary:hover {
   background: transparent;
-  color: #7c6ef5;
+  color: #6c6cf7;
 }
 
 .btn-outline {
@@ -117,7 +117,7 @@
 }
 
 .stat-num span {
-  color: #7c6ef5;
+  color: #ff7b00;
 }
 
 .stat-label {
