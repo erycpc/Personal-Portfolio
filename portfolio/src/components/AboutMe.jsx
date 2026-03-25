@@ -15,12 +15,12 @@ function About() {
           </p>
           <p>
             I believe great software is as much about <strong>people</strong> as
-            it is about code, clean, thoughtful, and built to last.
+            it is about code — clean, thoughtful, and built to last.
           </p>
           <a href="#contact" className="btn btn-primary">let's collaborate</a>
         </div>
         <div className="about-avatar">
-          <span>👨‍💻</span>
+          <img src="/retouch_2025102912025203.jpg" alt="Eric Mbithi" className="about-img" />
         </div>
       </div>
     </section>
