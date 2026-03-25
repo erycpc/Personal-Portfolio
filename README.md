@@ -138,7 +138,7 @@ npm run build
 ## Author
 
 **Eric Mbithi**
-- GitHub: [@ericmbithi](https://github.com/_ericmbithi)
+- GitHub: [@ericmbithi](https://github.com/erycpc)
 - LinkedIn: [linkedin.com/in/ericmbithi](https://linkedin.com/in/eric-mbithi-0a10222a3/)
 
 ---
