@@ -1,0 +1,141 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rem 3rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  background-image:
+    linear-gradient(#7c6ef5 1px, transparent 1px),
+    linear-gradient(90deg, #7c6ef5 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
+.hero-tag {
+  font-family: 'Space Mono', monospace;
+  font-size: 13px;
+  color: #3ecfb2;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.hero-tag::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 1px;
+  background: #3ecfb2;
+}
+
+.hero-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(3rem, 8vw, 7rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  margin-bottom: 2rem;
+  color: #f0f0f5;
+}
+
+.hero-title span {
+  color: #7c6ef5;
+}
+
+.hero-desc {
+  max-width: 520px;
+  font-size: 18px;
+  color: #7a7a95;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.85rem 2rem;
+  border-radius: 4px;
+  font-family: 'Space Mono', monospace;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background: #7c6ef5;
+  color: #fff;
+  border-color: #7c6ef5;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: #7c6ef5;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #f0f0f5;
+  border-color: rgba(255, 255, 255, 0.07);
+}
+
+.btn-outline:hover {
+  border-color: #7a7a95;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 3rem;
+  margin-top: 5rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.stat-num {
+  font-family: 'Syne', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #f0f0f5;
+  line-height: 1;
+}
+
+.stat-num span {
+  color: #7c6ef5;
+}
+
+.stat-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  color: #7a7a95;
+  margin-top: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 6rem 1.5rem 3rem;
+  }
+
+  .hero-stats {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+}
