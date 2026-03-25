@@ -6,7 +6,7 @@ A personal developer portfolio built with **React** and **Vite**, showcasing my 
 
 ## Live Demo
 
-> 🔗 [your-portfolio-url.com]((https://personal-portfolio-woad-eight.vercel.app/))
+> 🔗 [(https://personal-portfolio-woad-eight.vercel.app/)]((https://personal-portfolio-woad-eight.vercel.app/))
 
 
 ## Tech Stack
