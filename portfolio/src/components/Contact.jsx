@@ -1,8 +1,8 @@
 const links = [
   { label: "GitHub", href: "https://github.com/erycpc" },
   { label: "LinkedIn", href: "https://linkedin.com/in/eric-mbithi-0a10222a3/" },
-  { label: "Twitter / X", href: "https://twitter.com/_ericmbithi" },
-  { label: "Resume PDF", href: "#" },
+  { label: "Twitter / X", href: "https://twitter.com/erycpc" },
+  { label: "Resume PDF", href: "https://drive.google.com/file/d/1pSHsXe1eSpjIub1V3MBPxZagsGyKHddg/view?usp=drive_link" },
 ];
 
 function Contact() {

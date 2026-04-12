@@ -2,46 +2,102 @@
   padding: 6rem 3rem;
 }
 
-.projects-coming-soon {
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.project-card {
   display: flex;
   flex-direction: column;
+  gap: 0.875rem;
+  padding: 1.75rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: left;
+  background: var(--bg);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  border-color: var(--accent-border);
+  box-shadow: var(--shadow);
+}
+
+.project-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-tag {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  padding: 3px 10px;
+  border-radius: 99px;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-link {
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5rem 2rem;
-  border: 1px dashed rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  text-align: center;
-  gap: 1rem;
+  color: var(--text);
+  transition: color 0.15s ease;
 }
 
-.projects-coming-soon .coming-icon {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+.project-link:hover {
+  color: var(--accent);
 }
 
-.projects-coming-soon h3 {
-  font-family: 'Syne', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #f0f0f5;
+.project-title {
+  font-family: var(--heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-h);
+  margin: 0;
 }
 
-.projects-coming-soon p {
-  font-size: 15px;
-  color: #7a7a95;
-  max-width: 360px;
+.project-desc {
+  font-size: 14.5px;
+  color: var(--text);
   line-height: 1.7;
+  flex: 1;
 }
 
-.projects-coming-soon .mono {
-  font-family: 'Space Mono', monospace;
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.tech-badge {
+  font-family: var(--mono);
   font-size: 12px;
-  color: #7c6ef5;
-  letter-spacing: 0.08em;
+  color: var(--text-h);
+  background: var(--code-bg);
+  padding: 3px 10px;
+  border-radius: 6px;
 }
 
 @media (max-width: 768px) {
   .projects {
     padding: 4rem 1.5rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
   }
 }

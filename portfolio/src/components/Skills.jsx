@@ -2,12 +2,22 @@ const skills = [
   {
     icon: "🎨",
     title: "Frontend",
-    tags: ["HTML", "CSS", "JavaScript", "React"],
+    tags: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Tailwind"],
+  },
+  {
+    icon: "📱",
+    title: "Mobile",
+    tags: ["React Native", "Expo"],
   },
   {
     icon: "🛠",
     title: "Backend",
-    tags: ["Python", "Flask"],
+    tags: ["Python", "Flask", "Firebase"],
+  },
+  {
+    icon: "🔧",
+    title: "Tools & Services",
+    tags: ["Clerk", "PostHog"],
   },
 ];
 
