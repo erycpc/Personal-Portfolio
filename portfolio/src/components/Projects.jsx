@@ -19,6 +19,15 @@ const projects = [
     github: "https://github.com/erycpc/PayLoop",
     live: null,
   },
+  {
+    id: "dropspace",
+    tag: "web app",
+    title: "DropSpace",
+    description: "A Google Drive clone built with React. Features real file upload, in-browser preview for images, PDFs and videos, rename/delete operations, real-time search, and URL-based navigation.",
+    tech: ["React", "Vite", "React Router", "CSS"],
+    github: "https://github.com/erycpc/google-drive-clone",
+    live: null,
+  },
 ];
 
 function Projects() {
