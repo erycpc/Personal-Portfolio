@@ -1,6 +1,5 @@
 # A personal portfolio built with **React** and **Vite**, showcasing my work, skills, and background as a Software Engineer.
 
----
 
 ## Live Demo
 
