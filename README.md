@@ -1,6 +1,4 @@
-# Eric Mbithi — Portfolio
-
-A personal portfolio built with **React** and **Vite**, showcasing my work, skills, and background as a Software Engineer.
+# A personal portfolio built with **React** and **Vite**, showcasing my work, skills, and background as a Software Engineer.
 
 ---
 
