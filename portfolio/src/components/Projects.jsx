@@ -28,6 +28,16 @@ const projects = [
     github: "https://github.com/erycpc/DropSpace",
     live: null,
   },
+  {
+    id: "astryx",
+    tag: "web app",
+    title: "Astryx",
+    description: 
+    "Astryx is a modern, responsive film production company website built with React and React Router. The site features a premium cinematic aesthetic with gold accents, film grain textures, and smooth animations that reflect the company's commitment to high-quality storytelling.",
+    tech: ["React", "Vercel", "React-Router"],
+    github: "https://astryx-dun.vercel.app/",
+    live: null
+  }
 ];
 
 function Projects() {
