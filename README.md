@@ -125,7 +125,7 @@ npm run build
 
 ## Roadmap
 
-- [ ] Add real projects to the Projects section
+- [X] Add real projects to the Projects section
 - [ ] Add animations on scroll
 - [ ] Add dark/light mode toggle
 - [ ] Add a blog section
