@@ -6,8 +6,8 @@ const projects = [
     description: 
     "A full-stack web application for connecting people with skills to those who need them. Built with the MERN stack (MongoDB, Express, React, Node.js).",
     tech: ["React", "Vercel", "React-Router", "MongoDB", "Express", "Node"],
-    github: "https://skill-cast.vercel.app/",
-    live: null
+    github: "https://github.com/erycpc/SkillCast",
+    live: "https://skill-cast.vercel.app/"
   },
   {
     id: "budgetbuddy",

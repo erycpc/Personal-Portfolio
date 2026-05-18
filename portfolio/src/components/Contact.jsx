@@ -1,8 +1,11 @@
 const links = [
+  { label: "Instagram", href: "https://www.instagram.com/_.eryc/" },
   { label: "GitHub", href: "https://github.com/erycpc" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/eric-mbithi-0a10222a3/" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/eric-mbithi-b2b661408/" },
   { label: "Twitter / X", href: "https://twitter.com/erycpc" },
-  { label: "Resume PDF", href: "https://drive.google.com/file/d/1pSHsXe1eSpjIub1V3MBPxZagsGyKHddg/view?usp=drive_link" },
+  { label: "Resume PDF", href: "https://docs.google.com/document/d/1SMFX4lYc_HmHBdQbGXIhRo5sD8ja_dz-/edit?usp=sharing&ouid=102661546343558971383&rtpof=true&sd=true" },
+  { label: "Email", href: "mailto:ericmbithiofficial@gmail.com" },
+
 ];
 
 function Contact() {
@@ -18,7 +21,7 @@ function Contact() {
           collaborations. Send me an email and I'll get back to you within
           24 hours.
         </p>
-        <a href="mailto:ericmbithiofficial@example.com" className="btn btn-primary">
+        <a href="mailto:ericmbithiofficial@gmail.com" className="btn btn-primary">
           say hello →
         </a>
         <div className="contact-links">
