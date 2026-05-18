@@ -1,44 +1,5 @@
 const projects = [
   {
-    id: "opus",
-    tag: "web app",
-    title: "Opus",
-    description:
-      "An Instagram-like photo gallery built with React and Firebase. Upload photos via drag-and-drop, browse a responsive masonry grid, and view images in a full-screen modal — all with real-time Firestore sync and smooth Framer Motion animations.",
-    tech: ["React", "Firebase", "Framer Motion", "CSS3"],
-    github: "https://github.com/erycpc/opus",
-    live: null,
-  },
-  {
-    id: "payloop",
-    tag: "mobile app",
-    title: "PayLoop",
-    description:
-      "A subscription-management mobile app built with Expo and React Native. Track recurring payments, visualise spending insights with charts, and manage your subscriptions from a clean, auth-protected interface powered by Clerk.",
-    tech: ["Expo", "React Native", "Clerk", "NativeWind", "PostHog"],
-    github: "https://github.com/erycpc/PayLoop",
-    live: null,
-  },
-  {
-    id: "dropspace",
-    tag: "web app",
-    title: "DropSpace",
-    description: "A Google Drive clone built with React. Features real file upload, in-browser preview for images, PDFs and videos, rename/delete operations, real-time search, and URL-based navigation.",
-    tech: ["React", "Vite", "React Router", "CSS"],
-    github: "https://github.com/erycpc/DropSpace",
-    live: null,
-  },
-  {
-    id: "astryx",
-    tag: "web app",
-    title: "Astryx",
-    description: 
-    "Astryx is a modern, responsive film production company website built with React and React Router. The site features a premium cinematic aesthetic with gold accents, film grain textures, and smooth animations that reflect the company's commitment to high-quality storytelling.",
-    tech: ["React", "Vercel", "React-Router"],
-    github: "https://astryx-dun.vercel.app/",
-    live: null
-  },
-  {
     id: "skillcast",
     tag: "web app",
     title: "SkillCast",
@@ -47,7 +8,17 @@ const projects = [
     tech: ["React", "Vercel", "React-Router", "MongoDB", "Express", "Node"],
     github: "https://skill-cast.vercel.app/",
     live: null
-  }
+  },
+  {
+    id: "budgetbuddy",
+    tag: "web app",
+    title: "Budget Buddy",
+    description: 
+    "A full-stack personal finance web application built on the MERN stack with AI-powered financial advisory.",
+    tech: ["React", "Vercel", "React-Router", "MongoDB", "Express", "Node", "Groq", "Render"],
+    github: "https://github.com/erycpc/BudgetBuddy",
+    live: "https://budget-buddy-seven-jet.vercel.app/"
+  },
 ];
 
 function Projects() {
